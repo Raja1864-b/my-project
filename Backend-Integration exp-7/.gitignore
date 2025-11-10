@@ -1,0 +1,82 @@
+# ========================
+# Node.js / Express backend
+# ========================
+node_modules/
+.env
+.env.local
+.env.*.local
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# ========================
+# React frontend
+# ========================
+# dependencies
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# production build
+build/
+dist/
+
+# misc
+.DS_Store
+*.pem
+
+# local env files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# test coverage
+frontend/coverage/
+
+# ========================
+# IDE / Editor settings
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# System files
+# ========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ========================
+# Optional: TypeScript
+# ========================
+*.tsbuildinfo
+
+# ========================
+# Optional: Lock files (if not consistent across team)
+# ========================
+# package-lock.json
+# yarn.lock
